@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="METRO_danger">#a43f3e</color>
+    <color name="METRO_blue">#43515d</color>
+    <item name="METRO_black" type="color">#f5f5f5</item>
+    <item name="METRO_info" type="color">#1caf9a</item>
+    <item name="METRO_sky" type="color">#F1F5F9</item>
+
+</resources>

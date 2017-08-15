@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MercarPedido"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinnerSelect"
+        android:background="#a43f3e">
+
+
+    </Spinner>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/findSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find countries that are Selected"
+        android:layout_below="@+id/editProducto"
+        android:layout_alignParentLeft="true" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/listChequeo"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/button9"
+        android:layout_below="@+id/spinnerSelect">
+
+
+    </ListView>
+
+
+    <Button
+        android:text="ACEPTAR"
+        android:id="@+id/button9"
+        style="@style/proyectoWMS_METRO_Theme.Button.AceptarLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="aceptar" />
+
+    <Button
+        android:text="CANCELAR"
+        android:id="@+id/button13"
+        style="@style/proyectoWMS_METRO_Theme.Button.CancelarLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button9"
+        android:onClick="cancelar" />
+
+
+</RelativeLayout>
